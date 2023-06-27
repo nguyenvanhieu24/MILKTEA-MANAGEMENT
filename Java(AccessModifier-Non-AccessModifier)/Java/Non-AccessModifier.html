@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="blossk" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="icon.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="landing.min.css">
+  <link rel="stylesheet" href="css/Site.min.css">
+  <link rel="stylesheet" href="css/detail.min.css">
+  <link rel="stylesheet" href= "css/menu.css">
+  <link rel="stylesheet" href= "css/menu1.css">
+   <link rel="stylesheet" href="css/shThemeDefault.css">
+   <link rel="stylesheet" href="css/shCore.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <link rel="stylesheet" type="text/css" href="css.csslist.css">
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/1.1.1/marked.min.js"></script>
+  <script src="https://codelearn.io/Themes/TheCodeCampPro/Resources/Lib/jquery/jquery.min.js?fileHash=ejlXWurjHXHGOnyj1CERxA%3d%3d" type="text/javascript"></script>
+  <script type="text/javascript" src="js/jsss.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://kit.fontawesome.com/36eb573868.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+  <script type="text/javascript">
+    function AccessModifier(){
+        location.href="AccessModifier.html";
+    }
+    function NonAccessModifier(){
+        location.href="Non-AccessModifier.html";
+    }
+    function goBack() {
+        window.history.back()
+    }
+    function contact(){
+        alert("Please Login For Continue! Thanks <3")
+    }
+  </script>
+	<title>Java - Modifier Types</title>
+</head>
+<body class="hold-transition site-body skin-sku-light layout-top-nav learning " data-new-gr-c-s-check-loaded="14.1054.0" data-gr-ext-installed="">
+        <div class="zone zone-content">
+            <article class="widget-navigation widget-menu-widget widget" style="height: 77px;">
+          <header class="navbar site-header container">
+                                <div class="wrap-site-logo" data-aos="zoom-in" data-aos-offset="300">
+                                    <a title="Java-Modifier Types">
+                                        <h1 class="neon">Modifier</h1>
+                                        <h1 class="flux">Types</h1>
+                                    </a>
+                                </div>
+                                <br>
+                               <center>
+                                <div class="wrap-right-headers">
+                                       <nav class="site-menu">
+                                        <ul class="menu menu-main-menu">
+                                            <li>
+                                            <i class="fa-solid fa-rotate-left" onclick="goBack()" style="color: #0cd1e8; font-size: 25px;"></i>
+                                            </li>
+                                            <li>
+                                                <a title="Access Modifier" onclick="AccessModifier()" style="cursor:pointer;">Access Modifier</a>
+                                            </li>
+                                            <li class="current">
+                                                <a title="Non-Access Modifier" onclick="NonAccessModifier()" style="cursor:pointer;">Non-Access Modifier</a>
+                                            </li>
+                                        </ul>
+
+                                        </nav> 
+                                    </div>
+                                </center>
+                                    </header>
+                                </article>
+                            </div>
+                            <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <main id="layout-main" class="group">
+<section class="sidebar close">
+    <div class="logo-details">
+      <i><a title="Access Modifier" onclick="AccessModifier()" style="cursor:pointer;"><img alt="SQl" class="bx bxl-c-plus-plus" src="images/java.png" style="cursor: pointer;"></a></i>
+      <span class="logo_name">Java Programming</a></span>
+    </div>
+    <ul class="nav-links">
+      <li>
+        <a href="#">
+          <i class='bx bx-grid-alt' ></i>
+          <span class="link_name">Dashboard</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Category</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bx-collection' ></i>
+            <span class="link_name">Category</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Category</a></li>
+          <li><a href="#">HTML & CSS</a></li>
+          <li><a href="#">JavaScript</a></li>
+          <li><a href="#">PHP & MySQL</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bx-book-alt' ></i>
+            <span class="link_name">Posts</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Posts</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-pie-chart-alt-2' ></i>
+          <span class="link_name">Analytics</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Analytics</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-line-chart' ></i>
+          <span class="link_name">Chart</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Chart</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bx-plug' ></i>
+            <span class="link_name">Plugins</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Plugins</a></li>
+          <li><a href="#">UI Face</a></li>
+          <li><a href="#">Pigments</a></li>
+          <li><a href="#">Box Icons</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-compass' ></i>
+          <span class="link_name">Explore</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Explore</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-history'></i>
+          <span class="link_name">History</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">History</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-cog' ></i>
+          <span class="link_name">Setting</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Setting</a></li>
+        </ul>
+      </li>
+      <li>
+    </li>
+</ul>
+</section>
+<br>
+<br>
+<br>
+<br>
+<br>
+  <section class="home-section">
+    <div class="home-content">
+      <i class='bx bx-menu' ></i>
+      <span class="text">Option</span>
+    </div>
+    <div class="sum">
+  <div id="home" class="content">
+    <h3 style="font-family: codelearn-font;">
+        <strong>1 - Tổng quan về Non Access Modifier trong Java </strong>
+    </h3>
+    <section class="course1_C">
+        <p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine"> Java cũng cung cấp một số Non-Access Modifier để thực hiện các tính năng khác: </p>
+     <ul data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">
+        <li>
+            <em>Static</em> Modifier để tạo các phương thức lớp và các biến.
+        </li> 
+        <li>
+            <em>Final</em> Modifier để kết thúc sự thi hành của các lớp, các phương thức và các biến.
+        </li> 
+        <li>
+            <em>Abstract</em> Modifier để tạo các lớp và các phương thức trừu tượng.
+        </li>
+         <li>
+            <em>Synchronized</em> Modifier và <em>Volatile</em> Modifier được sử dụng cho các Thread.</li>
+        </ul>
+    </section>
+    <hr>
+    <section class="list-lesson" style="float:right;">
+        <ul style="list-style-image: url('images/coding1.png');margin-right: 10px;">
+            <h3 style="text-align: center;color: #c53f3a;">List</h3>
+            <li><a href="#home">1 - Tổng quan về Non Access Modifier trong Java</a></li>
+            <li><a href="#samples">2 - Static Modifier trong Java</a></li>
+            <li><a href="#offers">3 - Final Modifier trong Java</a></li>
+            <li><a href="#product">4 - Abstract Modifier trong Java</a></li>
+            <li><a href="#contact">5 - Synchronized Modifier & Transient Modifier & Volatile Modifier </a></li>
+        </ul>
+    </section>
+    <br>
+    <br>
+    <br>
+ 
+    <section class="button-NB" style="margin-top: 300px;margin-left: 550px;">
+        
+        <button class="snip1582" style="margin: 0px;box-shadow: 0px 8px 16px 0px red;"><a href="#home"><i class="fa-solid fa-list"></i></a></button>
+        <button class="snip1582" style="box-shadow: 0px 8px 16px 0px red;"><a href="#samples">NEXT <i class="fa-solid fa-arrow-right"></i></a></button>
+    </section>
+</div>
+    <div id="samples" class="panel1">
+    <div class="content">
+        <h3><strong>2 - Static Modifier trong Java</strong></h3>
+        <section class="course1_C2">
+            <h4><em>Biến static trong Java</em></h4>
+        <p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">Từ khóa <em>static</em> được sử dụng để tạo các biến mà sẽ tồn tại một cách độc lập trong bất kỳ instance được tạo cho lớp đó. Chỉ có một bản sao biến static tồn tại cho dù có nhiều instance của lớp đi chăng nữa.</p>
+     <p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">Các biến static cũng được biết đến như là các biến class. Các biến local không thể được khai báo là static.</p>
+       <h4><em>Phương thức static trong Java</em></h4>
+       <p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">Từ khóa static được sử dụng để tạo các phương thức mà sẽ tồn tại một cách độc lập trong bất kỳ instance được tạo cho lớp đó.</p>
+       <p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">Các phương thức static không sử dụng bất kỳ biến instance nào của bất cứ đối tượng trong lớp mà chúng được định nghĩa. Các phương thức static nhận tất cả dữ liệu từ các tham số và tính toán mọi thứ từ các tham số của chúng, mà không tham chiếu tới các biến.</p>
+       <p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">Các biến class và phương thức class có thể được truy cập bởi sử dụng tên lớp được theo sau bởi một dấu chấm và tên biến hoặc phương thức.</p>
+       <center data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine"><h4>“Tên class” + “.” + “Tên biến / Phương thức”</h4></center>
+     <p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine"><strong>Ví dụ</strong></p>
+     <p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">Static Modifier trong Java được sử dụng để tạo các phương thức class và biến class như trong ví dụ sau:</p>
+     <img src="images/static.jpg" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine" class="aos-init aos-animate">
+     <br>
+     <br>
+     <p>Kết quả được trả về sẽ là:</p>
+     <img src="images/outputstatic.jpg" data-aos="fade-right" data-aos-offset="600" data-aos-easing="ease-in-sine" class="aos-init aos-animate">
+        </section>
+        <hr>
+    <section class="list-lesson" style="float:right;">
+            <ul style="list-style-image: url('images/coding1.png');margin-right: 10px;">
+                <h3 style="text-align: center;color: #c53f3a;">List</h3>
+            <li><a href="#home">1 - Tổng quan về Non Access Modifier trong Java</a></li>
+            <li><a href="#samples">2 - Static Modifier trong Java</a></li>
+            <li><a href="#offers">3 - Final Modifier trong Java</a></li>
+            <li><a href="#product">4 - Abstract Modifier trong Java</a></li>
+            <li><a href="#contact">5 - Synchronized Modifier & Transient Modifier & Volatile Modifier </a></li>
+        </ul>
+    </section>
+    <section class="button-NB" style="margin-top: 300px;margin-left: 340px;">
+        <button class="snip1582" ><a href="#home"><i class="fa-solid fa-arrow-left"></i> BACK</i></a></button>
+        <button class="snip1582" style="margin: 0px;"><a href="#home"><i class="fa-solid fa-list"></i></a></button>
+        <button class="snip1582" ><a href="#offers">NEXT <i class="fa-solid fa-arrow-right"></i></a></button>
+    </section>
+</div>
+</div>
+<div id="offers" class="panel1">
+    <div class="content">
+      <h3>3 - Final Modifier trong Java</h3>
+      <section class="course1_C2">
+        <h4><em>Biến final trong Java</em></h4>
+      <p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">Một biến final có thể được khởi tạo một cách rõ rằng chỉ một lần. Một biến tham chiếu được khai báo final có thể không bao giờ được tái gán để tham chiếu tới một đối tượng khác.</p>
+      <p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">Tuy nhiên, dữ liệu bên trong đối tượng có thể bị thay đổi. Vì thế, trạng thái của đối tượng có thể thay đổi, nhưng không phải là tham chiếu.</p>
+      <p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">Với các biến, <em>final</em> Modifier thường được sử dụng với <em>static</em> để tạo một hằng số cho một biến class.</p>
+     <p><strong>Ví dụ</strong></p>
+     <img src="images/finalbien.jpg" data-aos="fade-right" data-aos-offset="600" data-aos-easing="ease-in-sine" class="aos-init aos-animate">
+             <h4><em>Phương thức final trong Java</em></h4>
+        <p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">Một phương thức final không thể bị ghi đè phương thức (override) bởi bất kỳ lớp phụ nào. Như đã đề cập trước đó, final modifier ngăn cản một phương thức bị sửa đổi trong một lớp phụ.</p>
+        <p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">Mục đích chính của việc tạo phương thức final sẽ là: nội dung của phương thức không nên bị thay đổi bởi bên ngoài.</p>
+        <p><strong>Ví dụ</strong></p>
+        <p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">Bạn khai báo các phương thức sử dụng final modifier trong khai báo lớp, như trong ví dụ sau:</p>
+      <img src="images/finalphuongthuc.jpg" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine" class="aos-init aos-animate">
+      <h4><em>Lớp final trong Java</em></h4>
+      <p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">Mục đích chính của việc sử dụng một lớp được khai báo final là để ngăn cản lớp bị phân lớp thành lớp phụ. Nếu một lớp được đánh dấu là final, thì không có lớp nào có thể kế thừa bất kỳ đặc điểm nào từ lớp final đó.</p>
+      </section>
+      <hr>
+<section class="list-lesson" style="float:right;">
+        <ul style="list-style-image: url('images/coding1.png');margin-right: 10px;">
+                <h3 style="text-align: center;color: #c53f3a;">List</h3>
+            <li><a href="#home">1 - Tổng quan về Non Access Modifier trong Java</a></li>
+            <li><a href="#samples">2 - Static Modifier trong Java</a></li>
+            <li><a href="#offers">3 - Final Modifier trong Java</a></li>
+            <li><a href="#product">4 - Abstract Modifier trong Java</a></li>
+            <li><a href="#contact">5 - Synchronized Modifier & Transient Modifier & Volatile Modifier </a></li>
+        </ul>
+    </section>
+    <section class="button-NB" style="margin-top: 300px;margin-left: 340px;">
+        <button class="snip1582" ><a href="#samples"><i class="fa-solid fa-arrow-left"></i> BACK</i></a></button>
+        <button class="snip1582" style="margin: 0px;"><a href="#home"><i class="fa-solid fa-list"></i></a></button>
+        <button class="snip1582" ><a href="#product">NEXT <i class="fa-solid fa-arrow-right"></i></a></button>
+    </section>
+    </div>
+</div>
+  <div id="product" class="panel">
+    <div class="content">
+      <h3>4 - Abstract Modifier trong Java</h3>
+      <section class="course1_C2">
+              <h4><em>Lớp abstract trong Java</em></h4>
+      <p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">Một lớp abstract có thể không bao giờ được khởi tạo. Nếu một lớp được khai báo là abstract thì mục đích duy nhất cho lớp này là để được kế thừa.</p>
+      <p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">Một lớp không thể vừa abstract và final (một lớp final không thể được kế thừa). Nếu một lớp chứa các phương thức abstract thì lớp đó nên được khai báo là abstract. Nếu không, nó sẽ ném một compile error.</p>
+      <p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">Một lớp abstract có thể chứa cả các phương thức abstract cũng như các phương thức thông thường.</p>
+     <p><strong>Ví dụ</strong></p>
+     <img src="images/abstractlop.jpg" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine" class="aos-init aos-animate">
+     <h4><em>Phương thức abstract trong Java</em></h4>
+     <p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">Một phương thức abstract là một phương thức được khai báo mà không có bất kỳ sự triển khai nào. Thân phương thức này được cung cấp bởi lớp phụ. Các phương thức abstract có thể không bao giờ là final.</p>
+     <p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">Bất kỳ lớp nào mà kế thừa một lớp abstract phải triển khai tất cả phương thức abstract của lớp cha, trừ khi lớp phụ này cũng là một lớp abstract.</p>
+     <p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">Nếu một lớp chứa một hoặc nhiều phương thức abstract, thì lớp đó phải được khai báo là abstract. Một lớp abstract không cần chứa các phương thức abstract.</p>
+     <p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">Phương thức abstract kết thúc với một dấu chấm phảy. Ví dụ: public abstract sample();</p>
+     <br>
+<p><strong>
+Ví dụ</strong></p>
+<img src="images/abstractphuongthuc.jpg" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine" class="aos-init aos-animate">
+      </section>
+       <hr>
+        <section class="list-lesson" style="float:right;">
+            <ul style="list-style-image: url('images/coding1.png');margin-right: 10px;">
+            <h3 style="text-align: center;color: #c53f3a;">List</h3>
+            <li><a href="#home">1 - Tổng quan về Non Access Modifier trong Java</a></li>
+            <li><a href="#samples">2 - Static Modifier trong Java</a></li>
+            <li><a href="#offers">3 - Final Modifier trong Java</a></li>
+            <li><a href="#product">4 - Abstract Modifier trong Java</a></li>
+            <li><a href="#contact">5 - Synchronized Modifier & Transient Modifier & Volatile Modifier </a></li>
+        </ul>
+    </section>
+    <section class="button-NB" style="margin-top: 300px;margin-left: 340px;">
+        <button class="snip1582" ><a href="#offers"><i class="fa-solid fa-arrow-left"></i> BACK</i></a></button>
+        <button class="snip1582" style="margin: 0px;"><a href="#home"><i class="fa-solid fa-list"></i></a></button>
+        <button class="snip1582" ><a href="#contact">NEXT <i class="fa-solid fa-arrow-right"></i></a></button>
+    </section>
+    </div>
+</div>
+  <div id="contact" class="panel1">
+    <div class="content">
+        <h3>5 - Synchronized Modifier & Transient Modifier & Volatile Modifier </h3>
+        <section class="course1_C2">
+            <h4 ><em>Synchronized Modifier trong Java</em></h4>
+            <p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">Từ khóa <em>synchronized</em> được sử dụng để chỉ rằng một phương thức có thể được truy cập bởi chỉ một thread tại một thời điểm. Synchronized Modifier có thể được áp dụng với bất kỳ một trong 4 mức độ Access Modifier nào.</p>
+     <p><strong>Ví dụ</strong></p>
+     <img src="images/synchronized.jpg" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine" class="aos-init aos-animate">
+     <h4 ><em>Transient Modifier trong Java</em></h4>
+     <p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">Một biến instance được đánh dấu là <em>transient</em> để chỉ rằng JVM bỏ qua biến cụ thể khi xếp thứ tự đối tượng đang chứa nó.</p>
+     <p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">Modifier này được bao trong lệnh mà tạo biến đó, đứng trước lớp hoặc kiểu dữ liệu của biến đó.</p>
+     <p><strong>Ví dụ</strong></p>
+     <img src="images/transient.jpg" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine" class="aos-init aos-animate">
+     <h4><em>Volatile Modifier trong Java</em></h4>
+     <p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">Volatile được sử dụng để chỉ cho JVM biết rằng một thread đang truy cập biến đó phải luôn luôn sáp nhập bản sao biến private của riêng nó với bản sao master trong bộ nhớ.</p>
+     <p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">Truy cập một biến volatile đồng bộ tất cả bản sao của các biến trong bộ nhớ chính. Volatile chỉ có thể được áp dụng tới các biến instance, mà là kiểu đối tượng hoặc private. Một tham chiếu đối tượng Volatile có thể là null.</p>
+     <p><strong>Ví dụ</strong></p>
+     <img src="images/volatile.jpg" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine" class="aos-init aos-animate">
+     <p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">Thường thì, run() được gọi trong một thread (cái mà bạn bắt đầu sử dụng Runnable), và stop() được gọi từ thread khác. Nếu trong line 1 giá trị được lưu trữ được sử dụng, vòng lặp có thể không dừng lại khi bạn thiết lập là false trong line 2. Đó là khi bạn muốn sử dụng <em>volatile</em>.</p>
+        </section>
+        <hr>
+            <section class="list-lesson" style="float:right;">
+            <ul style="list-style-image: url('images/coding1.png');margin-right: 10px;">
+            <h3 style="text-align: center;color: #c53f3a;">List</h3>
+            <li><a href="#home">1 - Tổng quan về Non Access Modifier trong Java</a></li>
+            <li><a href="#samples">2 - Static Modifier trong Java</a></li>
+            <li><a href="#offers">3 - Final Modifier trong Java</a></li>
+            <li><a href="#product">4 - Abstract Modifier trong Java</a></li>
+            <li><a href="#contact">5 - Synchronized Modifier & Transient Modifier & Volatile Modifier </a></li>
+        </ul>
+    </section>
+    <section class="button-NB" style="margin-top: 300px;margin-left: 340px;">
+        <button class="snip1582" ><a href="#product"><i class="fa-solid fa-arrow-left"></i> BACK</i></a></button>
+        <button class="snip1582" style="margin: 0px;"><a href="#home"><i class="fa-solid fa-list"></i></a></button>
+        <button class="snip1582" ><a href="#">NEXT <i class="fa-solid fa-arrow-right"></i></a></button>
+    </section>
+  <script>
+   let arrow = document.querySelectorAll(".arrow");
+for (var i = 0; i < arrow.length; i++) {
+  arrow[i].addEventListener("click", (e)=>{
+ let arrowParent = e.target.parentElement.parentElement;//selecting main parent of arrow
+ arrowParent.classList.toggle("showMenu");
+  });
+}
+
+let sidebar = document.querySelector(".sidebar");
+let sidebarBtn = document.querySelector(".bx-menu");
+console.log(sidebarBtn);
+sidebarBtn.addEventListener("click", ()=>{
+  sidebar.classList.toggle("close");
+});
+</script>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+</script>
+<script>
+    $(document).ready(function() {
+        $(window).scroll(function() {
+            if ($(this).scrollTop()) {
+                $('#backtop').fadeIn();
+            }else{
+                $('#backtop').fadeOut();
+            }
+        });
+        $("#backtop").click(function(){
+            $('html, body').animate({
+                scrollTop: 0
+            }, 150);
+        });
+        $('.btn[href="#frmSignup"]').click(function (e) {
+            e.preventDefault();
+            $([document.documentElement, document.body]).animate({
+                scrollTop: $("#top-head .wrap-form-head-register").offset().top - 100
+            }, 1000);
+        });  
+    });
+</script>
+</div>
+</div>
+</div>
+</section>
+</main>
+</body>
+<script>
+ AOS.init();
+</script>
+</html>

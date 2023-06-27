@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="blossk" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="icon.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="landing.min.css">
+  <link rel="stylesheet" href="css/Site.min.css">
+  <link rel="stylesheet" href="css/detail.min.css">
+  <link rel="stylesheet" href= "css/menu.css">
+  <link rel="stylesheet" href= "css/menu1.css">
+   <link rel="stylesheet" href="css/shThemeDefault.css">
+   <link rel="stylesheet" href="css/shCore.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <link rel="stylesheet" type="text/css" href="css.csslist.css">
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/1.1.1/marked.min.js"></script>
+  <script src="https://codelearn.io/Themes/TheCodeCampPro/Resources/Lib/jquery/jquery.min.js?fileHash=ejlXWurjHXHGOnyj1CERxA%3d%3d" type="text/javascript"></script>
+  <script type="text/javascript" src="js/jsss.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://kit.fontawesome.com/36eb573868.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+  <script type="text/javascript">
+    function AccessModifier(){
+        location.href="AccessModifier.html";
+    }
+    function NonAccessModifier(){
+        location.href="Non-AccessModifier.html";
+    }
+    function goBack() {
+        window.history.back()
+    }
+    function contact(){
+        alert("Please Login For Continue! Thanks <3")
+    }
+  </script>
+	<title>Java - Modifier Types</title>
+</head>
+<body class="hold-transition site-body skin-sku-light layout-top-nav learning " data-new-gr-c-s-check-loaded="14.1054.0" data-gr-ext-installed="">
+        <div class="zone zone-content">
+            <article class="widget-navigation widget-menu-widget widget" style="height: 77px;">
+          <header class="navbar site-header container">
+                                <div class="wrap-site-logo" data-aos="zoom-in" data-aos-offset="300">
+                                    <a title="Java-Modifier Types">
+                                        <h1 class="neon">Modifier</h1>
+                                        <h1 class="flux">Types</h1>
+                                    </a>
+                                </div>
+                                <br>
+                               <center>
+                                <div class="wrap-right-headers">
+                                       <nav class="site-menu">
+                                        <ul class="menu menu-main-menu">
+                                            <li>
+                                            <i class="fa-solid fa-rotate-left" onclick="goBack()" style="color: #0cd1e8; font-size: 25px;"></i>
+                                            </li>
+                                            <li class="current">
+                                                <a title="Access Modifier" onclick="AccessModifier()" style="cursor:pointer;">Access Modifier</a>
+                                            </li>
+                                            <li>
+                                                <a title="Non-Access Modifier"onclick="NonAccessModifier()" style="cursor:pointer;">Non-Access Modifier</a>
+                                            </li>
+                                        </ul>
+
+                                        </nav> 
+                                    </div>
+                                </center>
+                                    </header>
+                                </article>
+                            </div>
+                            <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <main id="layout-main" class="group">
+<section class="sidebar close">
+    <div class="logo-details">
+      <i><a title="Access Modifier" onclick="AccessModifier()" style="cursor:pointer;"><img alt="SQl" class="bx bxl-c-plus-plus" src="images/java.png" style="cursor: pointer;"></a></i>
+      <span class="logo_name">Java Programming</a></span>
+    </div>
+    <ul class="nav-links">
+      <li>
+        <a href="#">
+          <i class='bx bx-grid-alt' ></i>
+          <span class="link_name">Dashboard</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Category</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bx-collection' ></i>
+            <span class="link_name">Category</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Category</a></li>
+          <li><a href="#">HTML & CSS</a></li>
+          <li><a href="#">JavaScript</a></li>
+          <li><a href="#">PHP & MySQL</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bx-book-alt' ></i>
+            <span class="link_name">Posts</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Posts</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-pie-chart-alt-2' ></i>
+          <span class="link_name">Analytics</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Analytics</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-line-chart' ></i>
+          <span class="link_name">Chart</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Chart</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bx-plug' ></i>
+            <span class="link_name">Plugins</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Plugins</a></li>
+          <li><a href="#">UI Face</a></li>
+          <li><a href="#">Pigments</a></li>
+          <li><a href="#">Box Icons</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-compass' ></i>
+          <span class="link_name">Explore</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Explore</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-history'></i>
+          <span class="link_name">History</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">History</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-cog' ></i>
+          <span class="link_name">Setting</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Setting</a></li>
+        </ul>
+      </li>
+      <li>
+    </li>
+</ul>
+</section>
+<br>
+<br>
+<br>
+<br>
+<br>
+  <section class="home-section">
+    <div class="home-content">
+      <i class='bx bx-menu' ></i>
+      <span class="text">Option</span>
+    </div>
+    <div class="sum">
+  <div id="home" class="content">
+    <h3 style="font-family: codelearn-font;">
+        <strong>1 - Tổng quan về Access Modifier trong Java </strong>
+    </h3>
+    <section class="course1_C">
+        <p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine"> Access Modifer trong Java xác định phạm vi có thể truy cập của biến, phương thức, constructor hoặc lớp. </p>
+        <p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine"> Trong java, có 4 phạm vi truy cập của <strong>Access Modifier</strong> như sau:</p>
+        <ol> 
+          <li data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine"> <strong >private </strong></li>
+          <li data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine"> <strong>default </strong></li>
+          <li data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine"> <strong>protected </strong></li>
+          <li data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine"> <strong>public </strong></li>
+        </ol>
+        <p data-aos="fade-right"
+     data-aos-offset="600"
+     data-aos-easing="ease-in-sine"> Bảng dưới đây mô tả khả năng truy cập của các Access Modifier trong java: </p>
+        <table class="alt" data-aos="fade-right"
+     data-aos-offset="600"
+     data-aos-easing="ease-in-sine">
+  <tbody>
+    <tr>
+      <th>Access Modifier</th>
+      <th>Trong lớp</th>
+      <th>Trong package</th>
+      <th>Ngoài package bởi lớp con</th>
+      <th>Ngoài package</th>
+    </tr>
+    <tr>
+      <td>Private</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <td>Default</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <td>Protected</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <td>Public</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+    </tr>    
+  </tbody>
+</table>
+<p data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"> Hình ảnh minh họa: </p>
+<img src="images/access-modifier-trong-java.png" alt="Ảnh minh họa access modifier trong java" data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">
+    </section>
+    <hr>
+    <section class="list-lesson" style="float:right;">
+        <ul style="list-style-image: url('images/coding1.png');margin-right: 10px;">
+            <h3 style="text-align: center;color: #c53f3a;">List</h3>
+            <li><a href="#home">1 - Tổng quan về Access Modifier trong Java</a></li>
+            <li><a href="#samples">2 - Phạm vi truy cập private & Vai trò của Private Constructor</a></li>
+            <li><a href="#offers">3 - Phạm vi truy cập default</a></li>
+            <li><a href="#product">4 - Phạm vi truy cập protected</a></li>
+            <li><a href="#contact">5 - Phạm vi truy cập public</a></li>
+        </ul>
+    </section>
+    <br>
+    <br>
+    <br>
+ 
+    <section class="button-NB" style="margin-top: 300px;margin-left: 550px;">
+        
+        <button class="snip1582" style="margin: 0px;box-shadow: 0px 8px 16px 0px red;"><a href="#home"><i class="fa-solid fa-list"></i></a></button>
+        <button class="snip1582" style="box-shadow: 0px 8px 16px 0px red;"><a href="#samples">NEXT <i class="fa-solid fa-arrow-right"></i></a></button>
+    </section>
+</div>
+    <div id="samples" class="panel">
+    <div class="content">
+        <h3><strong>2 - Phạm vi truy cập private</strong></h3>
+        <section class="course1_C2">
+            <p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine"> Private Access Modifier chỉ được truy cập trong phạm vi lớp. </p>
+            <p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine"> Ví dụ về private access modifier trong java </p>
+            <p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine"> Trong ví dụ, chúng ta tạo 2 lớp A và Simple. Lớp A chứa biến và phương thức được khai bao là private. Chúng ta cố gắng truy cập chúng từ bên ngoài lớp A. Điều này dẫn đến Compile time error: </p>
+            <div class="codeblock" data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">
+<div><div id="highlighter_588051" class="syntaxhighlighter  java"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div><div class="line number14 index13 alt1">14</div><div class="line number15 index14 alt2">15</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="java keyword">class</code> <code class="java plain">A {</code></div><div class="line number2 index1 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java keyword">private</code> <code class="java keyword">int</code> <code class="java plain">data = </code><code class="java value">40</code><code class="java plain">;</code></div><div class="line number3 index2 alt2">&nbsp;</div><div class="line number4 index3 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java keyword">private</code> <code class="java keyword">void</code> <code class="java plain">msg() {</code></div><div class="line number5 index4 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">System.out.println(</code><code class="java string">"Hello java"</code><code class="java plain">);</code></div><div class="line number6 index5 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">}</code></div><div class="line number7 index6 alt2"><code class="java plain">}</code></div><div class="line number8 index7 alt1">&nbsp;</div><div class="line number9 index8 alt2"><code class="java keyword">public</code> <code class="java keyword">class</code> <code class="java plain">Simple {</code></div><div class="line number10 index9 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java keyword">public</code> <code class="java keyword">static</code> <code class="java keyword">void</code> <code class="java plain">main(String args[]) {</code></div><div class="line number11 index10 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">A obj = </code><code class="java keyword">new</code> <code class="java plain">A();</code></div><div class="line number12 index11 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">System.out.println(obj.data);</code><code class="java comments">// Compile Time Error</code></div><div class="line number13 index12 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">obj.msg();</code><code class="java comments">// Compile Time Error</code></div><div class="line number14 index13 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">}</code></div><div class="line number15 index14 alt2"><code class="java plain">}</code></div></div></td></tr></tbody></table></div></div>
+</div>
+<h3> Vai trò của Private Constructor </h3>
+<p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine"> Nếu bạn tạo bất kỳ constructor là private trong lớp, bạn sẽ không thể tạo instance của class bên ngoài nó. Ví dụ:
+</p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">
+ <div class="codeblock" data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">
+<div><div id="highlighter_97397" class="syntaxhighlighter  java"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div><div class="line number14 index13 alt1">14</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="java keyword">class</code> <code class="java plain">A {</code></div><div class="line number2 index1 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java keyword">private</code> <code class="java plain">A() {</code></div><div class="line number3 index2 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">}</code><code class="java comments">//private constructor</code></div><div class="line number4 index3 alt1">&nbsp;</div><div class="line number5 index4 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java keyword">public</code> <code class="java keyword">void</code> <code class="java plain">msg() {</code></div><div class="line number6 index5 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">System.out.println(</code><code class="java string">"Hello java"</code><code class="java plain">);</code></div><div class="line number7 index6 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">}</code></div><div class="line number8 index7 alt1"><code class="java plain">}</code></div><div class="line number9 index8 alt2">&nbsp;</div><div class="line number10 index9 alt1"><code class="java keyword">public</code> <code class="java keyword">class</code> <code class="java plain">Simple {</code></div><div class="line number11 index10 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java keyword">public</code> <code class="java keyword">static</code> <code class="java keyword">void</code> <code class="java plain">main(String args[]) {</code></div><div class="line number12 index11 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">A obj = </code><code class="java keyword">new</code> <code class="java plain">A();</code><code class="java comments">//Compile Time Error</code></div><div class="line number13 index12 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">}</code></div><div class="line number14 index13 alt1"><code class="java plain">}</code></div></div></td></tr></tbody></table></div>
+</div>
+
+        </section>
+        <hr>
+    <section class="list-lesson" style="float:right;">
+            <ul style="list-style-image: url('images/coding1.png');margin-right: 10px;">
+                <h3 style="text-align: center;color: #c53f3a;">List</h3>
+                <li><a href="#home">1 - Tổng quan về Access Modifier trong Java</a></li>
+                <li><a href="#samples">2 - Phạm vi truy cập private & Vai trò của Private Constructor</a></li>
+                <li><a href="#offers">3 - Phạm vi truy cập default</a></li>
+                <li><a href="#product">4 - Phạm vi truy cập protected</a></li>
+                <li><a href="#contact">5 - Phạm vi truy cập public</a></li>
+        </ul>
+    </section>
+    <section class="button-NB" style="margin-top: 300px;margin-left: 340px;">
+        <button class="snip1582" ><a href="#home"><i class="fa-solid fa-arrow-left"></i> BACK</i></a></button>
+        <button class="snip1582" style="margin: 0px;"><a href="#home"><i class="fa-solid fa-list"></i></a></button>
+        <button class="snip1582" ><a href="#offers">NEXT <i class="fa-solid fa-arrow-right"></i></a></button>
+    </section>
+</div>
+</div>
+<div id="offers" class="panel">
+    <div class="content">
+      <h3>3 - Phạm vi truy cập default</h3>
+      <section class="course1_C2">
+        <p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine"> Nếu bạn không khai báo modifier nào, thì nó chính là trường hợp mặc định. Default Access Modifier là chỉ được phép truy cập trong cùng package. </p>
+        <p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine"> Ví dụ về Default Access Modifier trong Java </p>
+        <div class="codeblock" data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">
+<div><div id="highlighter_451358" class="syntaxhighlighter  java"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="java comments">// Lưu file với tên A.java</code></div><div class="line number2 index1 alt1"><code class="java keyword">package</code> <code class="java plain">vn.viettuts.demo;</code></div><div class="line number3 index2 alt2">&nbsp;</div><div class="line number4 index3 alt1"><code class="java keyword">class</code> <code class="java plain">A {</code></div><div class="line number5 index4 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java keyword">void</code> <code class="java plain">msg() {</code></div><div class="line number6 index5 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">System.out.println(</code><code class="java string">"Hello"</code><code class="java plain">);</code></div><div class="line number7 index6 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">}</code></div><div class="line number8 index7 alt1"><code class="java plain">}</code></div></div></td></tr></tbody></table></div></div>
+</div>
+<div class="codeblock" data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">
+<div><div id="highlighter_8884" class="syntaxhighlighter  java"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="java comments">// Lưu file với tên B.java</code></div><div class="line number2 index1 alt1"><code class="java keyword">package</code> <code class="java plain">vn.viettuts.mypack;</code></div><div class="line number3 index2 alt2">&nbsp;</div><div class="line number4 index3 alt1"><code class="java keyword">import</code> <code class="java plain">vn.viettuts.demo.*;</code></div><div class="line number5 index4 alt2">&nbsp;</div><div class="line number6 index5 alt1"><code class="java keyword">public</code> <code class="java keyword">class</code> <code class="java plain">B {</code></div><div class="line number7 index6 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java keyword">public</code> <code class="java keyword">static</code> <code class="java keyword">void</code> <code class="java plain">main(String args[]) {</code></div><div class="line number8 index7 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">A obj = </code><code class="java keyword">new</code> <code class="java plain">A(); </code><code class="java comments">// Compile Time Error&nbsp; </code></div><div class="line number9 index8 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">obj.msg();&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </code><code class="java comments">// Compile Time Error&nbsp; </code></div><div class="line number10 index9 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">}</code></div><div class="line number11 index10 alt2"><code class="java plain">}</code></div></div></td></tr></tbody></table></div></div>
+</div>
+<p data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"> Trong ví dụ trên, phạm vi truy cập của lớp A và phương thức của msg() của nó là mặc định nên chúng không thể được truy cập từ bên ngoài package. </p>
+      </section>
+      <hr>
+<section class="list-lesson" style="float:right;">
+        <ul style="list-style-image: url('images/coding1.png');margin-right: 10px;">
+                <h3 style="text-align: center;color: #c53f3a;">List</h3>
+                <li><a href="#home">1 - Tổng quan về Access Modifier trong Java</a></li>
+                <li><a href="#samples">2 - Phạm vi truy cập private & Vai trò của Private Constructor</a></li>
+                <li><a href="#offers">3 - Phạm vi truy cập default</a></li>
+                <li><a href="#product">4 - Phạm vi truy cập protected</a></li>
+                <li><a href="#contact">5 - Phạm vi truy cập public</a></li>
+        </ul>
+    </section>
+    <section class="button-NB" style="margin-top: 300px;margin-left: 340px;">
+        <button class="snip1582" ><a href="#samples"><i class="fa-solid fa-arrow-left"></i> BACK</i></a></button>
+        <button class="snip1582" style="margin: 0px;"><a href="#home"><i class="fa-solid fa-list"></i></a></button>
+        <button class="snip1582" ><a href="#product">NEXT <i class="fa-solid fa-arrow-right"></i></a></button>
+    </section>
+    </div>
+</div>
+  <div id="product" class="panel">
+    <div class="content">
+      <h3>4 - Phạm vi truy cập protected</h3>
+      <section class="course1_C2">
+        <p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine"> Protected access modifier được truy cập bên trong package và bên ngoài package nhưng phải kế thừa. </p>
+        <p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine"> Protected access modifier có thể được áp dụng cho biến, phương thức, constructor. Nó không thể áp dụng cho lớp. </p>
+        <p data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine"> Ví dụ về protected access modifier trong Java: </p>
+        <div class="codeblock" data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">
+<div><div id="highlighter_634935" class="syntaxhighlighter  java"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="java comments">// Lưu file với tên A.java</code></div><div class="line number2 index1 alt1"><code class="java keyword">package</code> <code class="java plain">vn.viettuts.demo;</code></div><div class="line number3 index2 alt2">&nbsp;</div><div class="line number4 index3 alt1"><code class="java keyword">public</code> <code class="java keyword">class</code> <code class="java plain">A {</code></div><div class="line number5 index4 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java keyword">protected</code> <code class="java keyword">void</code> <code class="java plain">msg() {</code></div><div class="line number6 index5 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">System.out.println(</code><code class="java string">"Hello"</code><code class="java plain">);</code></div><div class="line number7 index6 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">}</code></div><div class="line number8 index7 alt1"><code class="java plain">}</code></div></div></td></tr></tbody></table></div></div>
+</div>
+<div class="codeblock" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+<div><div id="highlighter_4460" class="syntaxhighlighter  java"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="java comments">// Lưu file với tên B.java</code></div><div class="line number2 index1 alt1"><code class="java keyword">package</code> <code class="java plain">vn.viettuts.mypack;</code></div><div class="line number3 index2 alt2">&nbsp;</div><div class="line number4 index3 alt1"><code class="java keyword">import</code> <code class="java plain">vn.viettuts.demo.*;</code></div><div class="line number5 index4 alt2">&nbsp;</div><div class="line number6 index5 alt1"><code class="java keyword">public</code> <code class="java keyword">class</code> <code class="java plain">B </code><code class="java keyword">extends</code> <code class="java plain">A {</code></div><div class="line number7 index6 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java keyword">public</code> <code class="java keyword">static</code> <code class="java keyword">void</code> <code class="java plain">main(String args[]) {</code></div><div class="line number8 index7 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">B obj = </code><code class="java keyword">new</code> <code class="java plain">B();&nbsp; </code></div><div class="line number9 index8 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">obj.msg(); </code></div><div class="line number10 index9 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">}</code></div><div class="line number11 index10 alt2"><code class="java plain">}</code></div></div></td></tr></tbody></table></div></div>
+</div>
+<p data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"> Kết quả: </p>
+<pre data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">Hello
+</pre>
+      </section>
+       <hr>
+        <section class="list-lesson" style="float:right;">
+            <ul style="list-style-image: url('images/coding1.png');margin-right: 10px;">
+            <h3 style="text-align: center;color: #c53f3a;">List</h3>
+                <li><a href="#home">1 - Tổng quan về Access Modifier trong Java</a></li>
+                <li><a href="#samples">2 - Phạm vi truy cập private & Vai trò của Private Constructor</a></li>
+                <li><a href="#offers">3 - Phạm vi truy cập default</a></li>
+                <li><a href="#product">4 - Phạm vi truy cập protected</a></li>
+                <li><a href="#contact">5 - Phạm vi truy cập public</a></li>
+        </ul>
+    </section>
+    <section class="button-NB" style="margin-top: 300px;margin-left: 340px;">
+        <button class="snip1582" ><a href="#offers"><i class="fa-solid fa-arrow-left"></i> BACK</i></a></button>
+        <button class="snip1582" style="margin: 0px;"><a href="#home"><i class="fa-solid fa-list"></i></a></button>
+        <button class="snip1582" ><a href="#contact">NEXT <i class="fa-solid fa-arrow-right"></i></a></button>
+    </section>
+    </div>
+</div>
+  <div id="contact" class="panel">
+    <div class="content">
+        <h3>5 - Phạm vi truy cập public</h3>
+        <section class="course1_C2">
+            <p data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"> Public access modifier được truy cập ở mọi nơi. </p>
+     <br>
+            <p data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"> Ví dụ về public access modifier trong java: </p>
+            <div class="codeblock" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+<div><div id="highlighter_373015" class="syntaxhighlighter  java"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="java comments">// Lưu file với tên A.java</code></div><div class="line number2 index1 alt1"><code class="java keyword">package</code> <code class="java plain">vn.viettuts.demo;</code></div><div class="line number3 index2 alt2">&nbsp;</div><div class="line number4 index3 alt1"><code class="java keyword">public</code> <code class="java keyword">class</code> <code class="java plain">A {</code></div><div class="line number5 index4 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java keyword">public</code> <code class="java keyword">void</code> <code class="java plain">msg() {</code></div><div class="line number6 index5 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">System.out.println(</code><code class="java string">"Hello"</code><code class="java plain">);</code></div><div class="line number7 index6 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">}</code></div><div class="line number8 index7 alt1"><code class="java plain">}</code></div></div></td></tr></tbody></table></div></div>
+</div>
+<div class="codeblock" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+<div><div id="highlighter_818203" class="syntaxhighlighter  java"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="java comments">// Lưu file với tên B.java</code></div><div class="line number2 index1 alt1"><code class="java keyword">package</code> <code class="java plain">vn.viettuts.mypack;</code></div><div class="line number3 index2 alt2">&nbsp;</div><div class="line number4 index3 alt1"><code class="java keyword">import</code> <code class="java plain">vn.viettuts.demo.*;</code></div><div class="line number5 index4 alt2">&nbsp;</div><div class="line number6 index5 alt1"><code class="java keyword">public</code> <code class="java keyword">class</code> <code class="java plain">B {</code></div><div class="line number7 index6 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java keyword">public</code> <code class="java keyword">static</code> <code class="java keyword">void</code> <code class="java plain">main(String args[]) {</code></div><div class="line number8 index7 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">A obj = </code><code class="java keyword">new</code> <code class="java plain">A();</code></div><div class="line number9 index8 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">obj.msg();</code></div><div class="line number10 index9 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">}</code></div><div class="line number11 index10 alt2"><code class="java plain">}</code></div></div></td></tr></tbody></table></div></div>
+</div>
+<p data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"> Kết quả: </p>
+<pre data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">Hello
+</pre>
+        </section>
+        <hr>
+            <section class="list-lesson" style="float:right;">
+            <ul style="list-style-image: url('images/coding1.png');margin-right: 10px;">
+            <h3 style="text-align: center;color: #c53f3a;">List</h3>
+                <li><a href="#home">1 - Tổng quan về Access Modifier trong Java</a></li>
+                <li><a href="#samples">2 - Phạm vi truy cập private & Vai trò của Private Constructor</a></li>
+                <li><a href="#offers">3 - Phạm vi truy cập default</a></li>
+                <li><a href="#product">4 - Phạm vi truy cập protected</a></li>
+                <li><a href="#contact">5 - Phạm vi truy cập public</a></li>
+        </ul>
+    </section>
+    <section class="button-NB" style="margin-top: 300px;margin-left: 340px;">
+        <button class="snip1582" ><a href="#product"><i class="fa-solid fa-arrow-left"></i> BACK</i></a></button>
+        <button class="snip1582" style="margin: 0px;"><a href="#home"><i class="fa-solid fa-list"></i></a></button>
+        <button class="snip1582" ><a href="#">NEXT <i class="fa-solid fa-arrow-right"></i></a></button>
+    </section>
+  <script>
+   let arrow = document.querySelectorAll(".arrow");
+for (var i = 0; i < arrow.length; i++) {
+  arrow[i].addEventListener("click", (e)=>{
+ let arrowParent = e.target.parentElement.parentElement;//selecting main parent of arrow
+ arrowParent.classList.toggle("showMenu");
+  });
+}
+
+let sidebar = document.querySelector(".sidebar");
+let sidebarBtn = document.querySelector(".bx-menu");
+console.log(sidebarBtn);
+sidebarBtn.addEventListener("click", ()=>{
+  sidebar.classList.toggle("close");
+});
+</script>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+</script>
+<script>
+    $(document).ready(function() {
+        $(window).scroll(function() {
+            if ($(this).scrollTop()) {
+                $('#backtop').fadeIn();
+            }else{
+                $('#backtop').fadeOut();
+            }
+        });
+        $("#backtop").click(function(){
+            $('html, body').animate({
+                scrollTop: 0
+            }, 150);
+        });
+        $('.btn[href="#frmSignup"]').click(function (e) {
+            e.preventDefault();
+            $([document.documentElement, document.body]).animate({
+                scrollTop: $("#top-head .wrap-form-head-register").offset().top - 100
+            }, 1000);
+        });  
+    });
+</script>
+</div>
+</div>
+</div>
+</section>
+</main>
+</body>
+<script>
+ AOS.init();
+</script>
+</html>
